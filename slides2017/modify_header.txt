@@ -1,0 +1,19 @@
+% Esto es para make code-output smaller
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}, fontsize=\tiny}
+
+% Esto es para make console-output smaller:
+\makeatletter
+\def\verbatim{\small\@verbatim \frenchspacing\@vobeyspaces \@xverbatim}
+\makeatother
+
+% Esto es para poder escribir en columnas:
+\newcommand{\columnsbegin}{\begin{columns}}
+\newcommand{\columnsend}{\end{columns}}
+
+% Esto es para que el cuadro sombreado donde sale el codigo sea mas chico y para que el espacio entre el codigo y el output sea menor
+% \usepackage{etoolbox} 
+% \setlength{\parskip}{0pt}
+% \setlength{\OuterFrameSep}{-4pt}
+% \makeatletter
+% \preto{\@verbatim}{\topsep=-10pt \partopsep=-10pt }
+% \makeatother
