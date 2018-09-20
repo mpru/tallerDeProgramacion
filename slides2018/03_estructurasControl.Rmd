@@ -1,8 +1,8 @@
 ---
 title: "Taller de Programación"
-subtitle: "02 - Estructuras de control"
+subtitle: "03 - Estructuras de control"
 author: "Mgs. Lic. Marcos Prunello"
-date: "`r Sys.Date()`"
+date: "2018"
 output: 
     beamer_presentation:
         #keep_tex: true

@@ -2,7 +2,7 @@
 title: "Taller de Programación"
 subtitle: "01 - Introducción"
 author: "Mgs. Lic. Marcos Prunello"
-date: "`r Sys.Date()`"
+date: "2018"
 output: 
     beamer_presentation:
         #keep_tex: true
